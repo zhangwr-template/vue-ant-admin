@@ -1,0 +1,1 @@
+import{s as a,o as s,c as t,t as e}from"./vendor.eef511a7.js";var r={setup:()=>(a((()=>{})),{})};const n={class:"table-list"};r.render=function(a,r,o,l,c,d){return s(),t("div",n,e(a.$t("navBar.lang")),1)};export default r;
