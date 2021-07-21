@@ -1,0 +1,27 @@
+{
+  "name": "vue-ant-admin",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "2.2.0-beta.3",
+    "axios": "^0.21.1",
+    "mockjs": "^1.1.0",
+    "vue": "^3.0.5",
+    "vue-i18n": "^9.1.6",
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vitejs/plugin-vue-jsx": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "less": "^4.1.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.3",
+    "vue-tsc": "^0.0.24"
+  }
+}
