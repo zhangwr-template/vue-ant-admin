@@ -7,12 +7,17 @@ const routes:any = [
   },
   {
     path: '/main',
-    component: ()=>import('./../components/test.vue'),
+    component: ()=>import('./../components/main-box/main-box.component.vue'),
     children: [
       {
         path: 'table-list',
         component: ()=>import('./../pages/table-list/table-list.component.vue'),
-      }]
+      },
+      {
+        path: 'arithmetic',
+        component: ()=>import('./../pages/arithmetic/arithmetic.component.vue'),
+      },
+    ]
   }
 ]
 
