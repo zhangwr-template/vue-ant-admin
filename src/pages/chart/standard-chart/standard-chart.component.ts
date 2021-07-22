@@ -1,8 +1,9 @@
 import {ref,onMounted} from "vue";
 import DateRangePickerComponent from './../../../components/date-range-picker/date-range-picker.component.vue'
+import BugCompareChartComponent from './bug-compare-chart/bug-compare-chart.component.vue'
 
 export default {
-  components:{DateRangePickerComponent},
+  components:{DateRangePickerComponent,BugCompareChartComponent},
   setup() {
     // ***函数方法
     // 初始化函数

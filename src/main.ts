@@ -5,7 +5,7 @@ import {key, store} from "./store";
 import {createI18n} from 'vue-i18n'
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
-import './mock/user.ts'
+import './mock'
 // import IconsVue from '@ant-design/icons-vue';
 import enUS from './locales/en-US'
 // console.log(enUS,'enUS')

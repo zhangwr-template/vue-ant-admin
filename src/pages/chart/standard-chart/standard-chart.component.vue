@@ -6,9 +6,19 @@
           style="padding: 16px 24px;background: #fff;border-radius: 4px;">
         <date-range-picker-component/>
       </a-col>
-<!--      <a-col :span="6" :order="3">2 col-order-3</a-col>-->
-<!--      <a-col :span="6" :order="2">3 col-order-2</a-col>-->
-<!--      <a-col :span="6" :order="1">4 col-order-1</a-col>-->
+    </a-row>
+
+    <a-row>
+      <a-col
+          :span="12"
+          style="padding: 16px 24px;background: #fff;border-radius: 4px;">
+        <bug-compare-chart-component/>
+      </a-col>
+      <a-col
+          :span="12"
+          style="padding: 16px 24px;background: #fff;border-radius: 4px;">
+        32
+      </a-col>
     </a-row>
   </div>
 </template>
