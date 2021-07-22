@@ -2,12 +2,17 @@ import * as VueRouter from 'vue-router'
 // import MainContainer from "../layouts/MainContainer.vue";
 const routes:any = [
   {
+    path: '/',
+    redirect:'/main'
+  },
+  {
     path: '/login',
     component: ()=>import('./../pages/login/login.component.vue'),
   },
   {
     path: '/main',
     component: ()=>import('./../components/main-box/main-box.component.vue'),
+    redirect:'/main/table-list',
     children: [
       {
         path: 'table-list',
@@ -16,6 +21,10 @@ const routes:any = [
       {
         path: 'arithmetic',
         component: ()=>import('./../pages/arithmetic/arithmetic.component.vue'),
+      },
+      {
+        path: 'standard-chart',
+        component: ()=>import('./../pages/chart/standard-chart/standard-chart.component.vue'),
       },
     ]
   }

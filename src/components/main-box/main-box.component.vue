@@ -16,6 +16,17 @@
           </template>
           <a-menu-item key="arithmetic">算法</a-menu-item>
         </a-sub-menu>
+
+        <a-sub-menu key="sub2">
+          <template #title>
+            <span>
+              <user-outlined />
+              <span>图表页</span>
+            </span>
+          </template>
+          <a-menu-item key="standard-chart">标准图表</a-menu-item>
+        </a-sub-menu>
+
       </a-menu>
     </a-layout-sider>
     <a-layout>
@@ -25,7 +36,7 @@
           <a-breadcrumb-item>User</a-breadcrumb-item>
           <a-breadcrumb-item>Bill</a-breadcrumb-item>
         </a-breadcrumb>
-        <div :style="{ padding: '24px', background: '#fff', minHeight: '360px' }">
+        <div :style="{ padding: '24px' }">
           <router-view/>
         </div>
       </a-layout-content>
