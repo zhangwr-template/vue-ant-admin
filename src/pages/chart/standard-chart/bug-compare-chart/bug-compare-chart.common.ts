@@ -1,3 +1,3 @@
-function convertChartData(data:any) {
-    return data
+function convertChartData(option:any,data:any) {
+    // option.
 }

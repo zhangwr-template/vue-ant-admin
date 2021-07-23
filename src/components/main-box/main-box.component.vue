@@ -20,7 +20,8 @@
         <a-sub-menu key="sub2">
           <template #title>
             <span>
-              <user-outlined />
+<!--              <user-outlined />-->
+              <PieChartOutlined />
               <span>图表页</span>
             </span>
           </template>

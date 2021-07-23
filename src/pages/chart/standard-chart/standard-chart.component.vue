@@ -1,6 +1,6 @@
 <template>
   <div class="standard-chart">
-    <a-row>
+    <a-row style="margin-bottom: 16px">
       <a-col
           :span="24"
           style="padding: 16px 24px;background: #fff;border-radius: 4px;">
@@ -11,13 +11,13 @@
     <a-row>
       <a-col
           :span="12"
-          style="padding: 16px 24px;background: #fff;border-radius: 4px;">
+          style="border-radius: 4px;padding-right: 4px">
         <bug-compare-chart-component/>
       </a-col>
       <a-col
           :span="12"
-          style="padding: 16px 24px;background: #fff;border-radius: 4px;">
-        32
+          style="border-radius: 4px;padding-left: 4px">
+        <bug-status-chart-component/>
       </a-col>
     </a-row>
   </div>
