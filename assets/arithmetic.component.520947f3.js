@@ -1,1 +1,0 @@
-import{v as r,o as t,c as e}from"./vendor.dabfe046.js";var a={setup:()=>(r((()=>{})),{})};const s={class:"arithmetic"};a.render=function(r,a,i,o,c,n){return t(),e("div",s," arithmetic ")};export default a;
